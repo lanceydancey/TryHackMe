@@ -23,7 +23,7 @@ This leads me to believe there is a clue in the games folder.
 
 Also, the brochure in this folder has a usernmae/password fields.
 
-Games - there is a pythn game that you can play to get a hint. Or you can take the encrypted message over to cyberchef and get the clue...
+Games - there is a pytohn game that you can play to get a hint. Or you can take the encrypted message over to cyberchef and get the clue...
 
 Message - WW91IHdvbiB0aGUgZ2FtZSEgWW91ciByZXdhcmQgaXMgYSBoaW50IC0geW91IHNob3VsZCBwcm9iYWJseSB0YWtlIGEgY2xvc2VyIGxvb2sgYXQgdGhlIHBpY3R1cmVzIGZvbGRlci4gVGhlcmUgbWlnaHQgYmUgc29tZXRoaW5nIGhpZGRlbiBpbiB0aGVyZS4gVXNlIHRoZSBQVyAvIEtFWVdPUkQ6IEZVTExZQ0hBUkdFRA==
 
@@ -31,11 +31,37 @@ Using base64 decoder from cyber chef we get...
 
 You won the game! Your reward is a hint - you should probably take a closer look at the pictures folder. There might be something hidden in there. Use the PW / KEYWORD: FULLYCHARGED.
 
-This could be useful, tinme to look closely in the picture folder.
+This could be useful, time to look closely in the picture folder.
 
 Pictures - Has a bunch of random pitcures
-Some of them have data to extract using the Passphrase "FULLYCHARGED"
+Some of them have data to extract using steghide and the Passphrase "FULLYCHARGED"
 Here is a list of what has packets:
 
-Spiderweb
-Storm
+Spiderweb - date from exif 2009:11:01 - piece od code  - QjBsV2
+Mushrooms - date from exif 2015:10:22 - piece of code - 8wZF
+Pretty_Bird_2 - date from exif 2019:08:19 - piece of code - ZvZVZ
+Rockport - date from exif 2019:09:19 - piece of code - SaWZZ
+Lake2 - date from exif 2020:09:22 - piece of code - bHp5
+Western_MA - date from exif 2022:05:27  - piece of code - WVB
+Vermont_Farm - date from exif 2022:07:24 - piece of code  - rVHlrV
+Apple_Orchard - date from exif 2022:07:30 - piece of code - 3pObk5T
+
+
+each of these photos contained an image hidden in the image, and they need to be put in chronological order
+
+
+B0lWo0dVoeVRifYlzyYPkTykWzNnNS
+
+fed this into the brochure with fullycharged and got:
+
+w0rld0ftheelectronandtheswitch
+
+last step is to find what is locked behind the monthly-update
+
+
+
+
+
+
+
+
